@@ -4,10 +4,10 @@
 <br><br>
 <pre>
     💼 KHMNU @ UFMG • Back-end dev • Platform Engineer
-    💻 System programming languages • DevOps 
-    📖 Software architecture • Distributed systems
-    🎮 Music • Games • Anime • Code • Art
-    🐾 Muffin 🐰 • Cake & Cookie & Pudim & Quindim 🐤🐥
+    💻 System programming languages • C,C#,C++,Java,Lua,Kotlin 
+    📖 Cybersecurity specialist • Information technologies
+    🎮 Music • Games • Anime • Code
+    🐾 Sushi 🐰 • Pizza & Obolonska & Coding & Music 🐤🐥
 </pre>
 <br><br>
 <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
