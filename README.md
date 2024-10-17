@@ -12,9 +12,10 @@
 <br><br>
 <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
 <br><br><br>
-    
-
+    <img  src="https://github-readme-stats.vercel.app/api?username=Xx-Ashutosh-xX&&show_icons=true&theme=radical"/>
 </div>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dracula)
+
 
 <!---
 DeFexNN/DeFexNN is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
