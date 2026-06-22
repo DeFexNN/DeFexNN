@@ -59,10 +59,6 @@ Software engineer at KHMNU @ DFXEDU with a focus on **systems programming**, **c
 
 <div align="center">
 
-[![Codewars](https://www.codewars.com/users/DeFexNN/badges/large)](https://www.codewars.com/users/DeFexNN)
-
-<br>
-
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeFexNN)
 [![Website](https://img.shields.io/badge/Website-defexgg.online-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.defexgg.online)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DeFexHacksTechSupport)
