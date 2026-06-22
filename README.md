@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" />
-
 ### DeFex — Software Engineer • Reverse Engineering • Systems Programming
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/DeFexNN)
