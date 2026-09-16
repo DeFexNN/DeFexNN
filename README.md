@@ -1,6 +1,6 @@
 <div align="center">
 
-# DeFex
+# DeFexGG
 
 ### Software Engineer · Systems Programming · Cybersecurity
 
