@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Denys Stadnik — Systems / Signal / Surface</title>
+  <desc id="desc">An original engineering atlas: layered geometric surfaces connect Windows internals to software interfaces. Decorative signal pulses animate gently.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#111A26"/><stop offset="1" stop-color="#080D14"/></linearGradient>
+    <linearGradient id="plane" x1="780" y1="120" x2="1060" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#273746"/><stop offset="1" stop-color="#111C28"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#A4D76A" stop-opacity=".13"/><stop offset="1" stop-color="#A4D76A" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#A9BED2" stroke-opacity=".045"/></pattern>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.sans{font-family:Arial,Helvetica,sans-serif}
+      .signal{stroke-dasharray:8 260;animation:flow 9s linear infinite}.pulse{animation:pulse 6s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-536}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.signal,.pulse{animation:none}}
+    </style>
+  </defs>
+  <rect x=".5" y=".5" width="1199" height="479" rx="20" fill="url(#bg)" stroke="#2A3542"/>
+  <rect x="1" y="1" width="1198" height="478" rx="20" fill="url(#grid)"/>
+  <ellipse cx="938" cy="239" rx="270" ry="220" fill="url(#halo)"/>
+  <path d="M48 62H78M48 62V92M1152 62H1122M1152 62V92M48 418H78M48 418V388M1152 418H1122M1152 418V388" stroke="#657786" stroke-opacity=".6"/>
+  <circle cx="104" cy="64" r="4" fill="#C5F277"/>
+  <text x="120" y="69" class="mono" font-size="13" letter-spacing="2" fill="#B6C4D1">DEFEXGG / ENGINEERING ATLAS</text>
+  <text x="1096" y="69" text-anchor="end" class="mono" font-size="12" letter-spacing="1.5" fill="#8E9FAF">DeFexNN</text>
+  <text x="76" y="155" class="mono" font-size="14" letter-spacing="3" fill="#C5F277">DENYS STADNIK</text>
+  <text x="72" y="226" class="sans" font-size="66" font-weight="700" letter-spacing="-3" fill="#F0F4F7">Below the surface.</text>
+  <text x="72" y="298" class="sans" font-size="66" font-weight="700" letter-spacing="-3" fill="#C5F277">Beyond the expected.</text>
+  <text x="76" y="345" class="sans" font-size="19" fill="#AABBCB">Windows internals → considered interfaces.</text>
+  <path d="M76 380H660" stroke="#2A3745"/>
+  <text x="76" y="409" class="mono" font-size="12" letter-spacing="2" fill="#D5DFE7">01 SYSTEMS</text>
+  <text x="279" y="409" class="mono" font-size="12" letter-spacing="2" fill="#D5DFE7">02 SIGNAL</text>
+  <text x="465" y="409" class="mono" font-size="12" letter-spacing="2" fill="#D5DFE7">03 SURFACE</text>
+  <g stroke-linejoin="round">
+    <path d="M790 303L946 224L1102 303L946 382Z" fill="#0D151F" stroke="#4B606E"/>
+    <path d="M790 283L946 204L1102 283L946 362Z" fill="url(#plane)" stroke="#607881"/>
+    <path d="M790 224L946 145L1102 224L946 303Z" fill="url(#plane)" stroke="#8EA69C"/>
+    <path d="M790 165L946 86L1102 165L946 244Z" fill="#15251F" stroke="#C5F277"/>
+    <path d="M829 165L946 106L1063 165L946 224Z" stroke="#C5F277" stroke-opacity=".22"/>
+    <path d="M868 165L946 126L1024 165L946 204Z" fill="#C5F277" fill-opacity=".07" stroke="#C5F277" stroke-opacity=".45"/>
+    <path d="M946 145L985 165L946 185L907 165Z" fill="#C5F277" fill-opacity=".85"/>
+    <path d="M946 244V362M790 165V283M1102 165V283" stroke="#C5F277" stroke-opacity=".22" stroke-dasharray="3 7"/>
+    <path d="M790 283L946 362L1102 283" class="signal" stroke="#C5F277" stroke-width="2"/>
+    <path d="M790 224L946 303L1102 224" class="signal" stroke="#B7A9EB" stroke-width="2"/>
+    <circle cx="946" cy="244" r="4" fill="#C5F277" class="pulse"/>
+    <circle cx="946" cy="303" r="4" fill="#B7A9EB" class="pulse"/>
+    <circle cx="946" cy="362" r="4" fill="#C5F277" class="pulse"/>
+  </g>
+  <text x="946" y="411" text-anchor="middle" class="mono" font-size="11" letter-spacing="2" fill="#92A89D">DEPTH IS THE COMMON THREAD</text>
+</svg>

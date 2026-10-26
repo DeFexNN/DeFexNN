@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Archon-KB — Retrieval with provenance</title>
+  <desc id="desc">Conceptual illustration: exact identifiers, GIN lexical search and pgvector similarity converge through reciprocal rank fusion, followed by entity context and source evidence.</desc>
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".6" fill="#66808D" fill-opacity=".2"/></pattern>
+    <style>.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.sans{font-family:Arial,Helvetica,sans-serif}</style>
+  </defs>
+  <rect x=".5" y=".5" width="1199" height="329" rx="16" fill="#0D141E" stroke="#2A3542"/>
+  <rect x="1" y="1" width="1198" height="328" rx="16" fill="url(#dots)"/>
+  <text x="40" y="44" class="mono" font-size="13" letter-spacing="2" fill="#C5F277">ARCHON-KB / RETRIEVAL WITH PROVENANCE</text>
+  <text x="1160" y="44" text-anchor="end" class="mono" font-size="11" letter-spacing="1" fill="#92A6B8">CONCEPT MAP · NOT LIVE DATA</text>
+  <g stroke="#415364">
+    <path d="M320 105H388Q410 105 410 127V157Q410 175 430 175H480"/>
+    <path d="M320 175H480"/>
+    <path d="M320 245H388Q410 245 410 223V193Q410 175 430 175"/>
+    <path d="M720 175H800"/>
+  </g>
+  <g fill="#151F2C" stroke="#344454">
+    <rect x="40" y="78" width="280" height="54" rx="8"/>
+    <rect x="40" y="148" width="280" height="54" rx="8"/>
+    <rect x="40" y="218" width="280" height="54" rx="8"/>
+    <rect x="800" y="106" width="360" height="138" rx="10"/>
+  </g>
+  <rect x="480" y="106" width="240" height="138" rx="10" fill="#1A261D" stroke="#7A9A58"/>
+  <g class="mono" font-size="17" fill="#D4DFE8">
+    <text x="60" y="112">01  EXACT IDENTIFIER</text>
+    <text x="60" y="182">02  LEXICAL / GIN</text>
+    <text x="60" y="252">03  VECTOR / HNSW</text>
+  </g>
+  <text x="600" y="164" text-anchor="middle" class="sans" font-size="30" font-weight="700" fill="#C5F277">RRF</text>
+  <text x="600" y="197" text-anchor="middle" class="mono" font-size="14" fill="#B5C5AD">RANK FUSION</text>
+  <text x="824" y="147" class="sans" font-size="23" font-weight="700" fill="#EAF0F6">Context + evidence</text>
+  <text x="824" y="182" class="mono" font-size="15" fill="#ADBED0">Entity relationships</text>
+  <text x="824" y="210" class="mono" font-size="15" fill="#ADBED0">Source / line / verbatim quote</text>
+  <circle cx="410" cy="175" r="4" fill="#C5F277"/>
+  <path d="M785 170L793 175L785 180" stroke="#C5F277" stroke-width="2"/>
+  <text x="40" y="307" class="mono" font-size="12" letter-spacing="1" fill="#8FA2B3">STRUCTURE FIRST. RETRIEVE SECOND. KEEP THE EVIDENCE.</text>
+</svg>

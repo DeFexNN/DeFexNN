@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="620" viewBox="0 0 640 620" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Denys Stadnik — Systems / Signal / Surface</title>
+  <desc id="desc">Mobile composition of the engineering atlas. Below the surface. Beyond the expected. Windows internals to considered interfaces.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111A26"/><stop offset="1" stop-color="#080D14"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#A9BED2" stroke-opacity=".045"/></pattern>
+    <style>.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.sans{font-family:Arial,Helvetica,sans-serif}.signal{stroke-dasharray:8 180;animation:flow 9s linear infinite}@keyframes flow{to{stroke-dashoffset:-376}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
+  </defs>
+  <rect x=".5" y=".5" width="639" height="619" rx="20" fill="url(#bg)" stroke="#2A3542"/>
+  <rect x="1" y="1" width="638" height="618" rx="20" fill="url(#grid)"/>
+  <circle cx="40" cy="47" r="4" fill="#C5F277"/>
+  <text x="55" y="53" class="mono" font-size="17" letter-spacing="1" fill="#B6C4D1">DEFEXGG / ENGINEERING ATLAS</text>
+  <text x="38" y="112" class="mono" font-size="19" letter-spacing="3" fill="#C5F277">DENYS STADNIK</text>
+  <text x="35" y="177" class="sans" font-size="54" font-weight="700" letter-spacing="-2" fill="#F0F4F7">Below the surface.</text>
+  <text x="35" y="239" class="sans" font-size="54" font-weight="700" letter-spacing="-2" fill="#C5F277">Beyond the expected.</text>
+  <text x="39" y="283" class="sans" font-size="22" fill="#AABBCB">Windows internals → considered interfaces.</text>
+  <g stroke-linejoin="round">
+    <path d="M210 457L320 401L430 457L320 513Z" fill="#0D151F" stroke="#4B606E"/>
+    <path d="M210 444L320 388L430 444L320 500Z" fill="#1A2833" stroke="#607881"/>
+    <path d="M210 405L320 349L430 405L320 461Z" fill="#1A2833" stroke="#8EA69C"/>
+    <path d="M210 366L320 310L430 366L320 422Z" fill="#15251F" stroke="#C5F277"/>
+    <path d="M238 366L320 324L402 366L320 408Z" stroke="#C5F277" stroke-opacity=".25"/>
+    <path d="M264 366L320 338L376 366L320 394Z" fill="#C5F277" fill-opacity=".07" stroke="#C5F277" stroke-opacity=".45"/>
+    <path d="M320 352L348 366L320 380L292 366Z" fill="#C5F277" fill-opacity=".85"/>
+    <path d="M210 366V444M320 422V500M430 366V444" stroke="#C5F277" stroke-opacity=".3" stroke-dasharray="3 7"/>
+    <path d="M210 405L320 461L430 405" class="signal" stroke="#B7A9EB" stroke-width="2"/>
+    <path d="M210 444L320 500L430 444" class="signal" stroke="#C5F277" stroke-width="2"/>
+  </g>
+  <path d="M38 548H602" stroke="#2A3745"/>
+  <text x="39" y="584" class="mono" font-size="17" letter-spacing="1" fill="#D5DFE7">01 SYSTEMS</text>
+  <text x="245" y="584" class="mono" font-size="17" letter-spacing="1" fill="#D5DFE7">02 SIGNAL</text>
+  <text x="435" y="584" class="mono" font-size="17" letter-spacing="1" fill="#D5DFE7">03 SURFACE</text>
+</svg>

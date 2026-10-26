@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="670" viewBox="0 0 640 670" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Archon-KB — Retrieval with provenance</title>
+  <desc id="desc">Exact identifiers, lexical search and vector search feed rank fusion, followed by entity context and source evidence. Conceptual architecture, not live data.</desc>
+  <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.sans{font-family:Arial,Helvetica,sans-serif}</style></defs>
+  <rect x=".5" y=".5" width="639" height="669" rx="16" fill="#0D141E" stroke="#2A3542"/>
+  <text x="32" y="49" class="mono" font-size="22" letter-spacing="1" fill="#C5F277">ARCHON-KB / RETRIEVAL</text>
+  <text x="32" y="82" class="mono" font-size="17" fill="#92A6B8">CONCEPT MAP · NOT LIVE DATA</text>
+  <g fill="#151F2C" stroke="#344454">
+    <rect x="32" y="112" width="576" height="62" rx="8"/>
+    <rect x="32" y="190" width="576" height="62" rx="8"/>
+    <rect x="32" y="268" width="576" height="62" rx="8"/>
+    <rect x="32" y="507" width="576" height="130" rx="10"/>
+  </g>
+  <g class="mono" font-size="26" fill="#D4DFE8">
+    <text x="56" y="153">01  EXACT IDENTIFIER</text>
+    <text x="56" y="231">02  LEXICAL / GIN</text>
+    <text x="56" y="309">03  VECTOR / HNSW</text>
+  </g>
+  <path d="M320 330V370M320 459V501" stroke="#8EA69C" stroke-width="2"/>
+  <path d="M314 491L320 501L326 491" stroke="#C5F277" stroke-width="2"/>
+  <rect x="32" y="370" width="576" height="89" rx="10" fill="#1A261D" stroke="#7A9A58"/>
+  <text x="56" y="407" class="sans" font-size="27" font-weight="700" fill="#C5F277">RECIPROCAL RANK FUSION</text>
+  <text x="56" y="439" class="mono" font-size="20" fill="#B5C5AD">Combined retrieval ranking</text>
+  <text x="56" y="547" class="sans" font-size="27" font-weight="700" fill="#EAF0F6">Context + evidence</text>
+  <text x="56" y="582" class="mono" font-size="22" fill="#ADBED0">Entity relationships</text>
+  <text x="56" y="615" class="mono" font-size="22" fill="#ADBED0">Source / line / verbatim quote</text>
+</svg>
