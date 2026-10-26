@@ -34,6 +34,10 @@ The common thread: understanding what happens beneath the interface—and making
 
 **Understand the machine beneath the application.**
 
+<a href="https://github.com/DeFexNN/drivers-portfolio">
+  <img src="assets/drivers-cover.webp" width="1200" loading="lazy" alt="Drivers Portfolio — original isometric silicon-chip artwork with layered circuitry, illustrating Windows kernel engineering. Conceptual artwork, not a live application screenshot.">
+</a>
+
 A Windows kernel engineering research suite spanning driver communication, memory management, PE loading, and user-mode tooling. The repository includes kernel C sources, a C++ loader, and a manual mapper.
 
 `C` `C++` `WDK / MSVC` `Windows internals`
@@ -64,10 +68,7 @@ The interesting boundary is between **kernel events and defensive visibility**: 
 **Low-level signals. A clear, considered interface.**
 
 <a href="https://github.com/DeFexNN/extera_system_monitor">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DeFexNN/extera_system_monitor/master/Documentation/screenshots/overview-dark.png">
-    <img src="https://raw.githubusercontent.com/DeFexNN/extera_system_monitor/master/Documentation/screenshots/overview-light.png" width="1200" loading="lazy" alt="Extera Monitor's actual Avalonia command center: CPU, GPU, memory, storage, and system telemetry.">
-  </picture>
+  <img src="assets/extera-cover.webp" width="1200" loading="lazy" alt="Extera Monitor — an editorial teal cover framing the actual Avalonia command center screenshot. CPU, GPU, memory, storage, and system telemetry; the application capture is unaltered apart from resizing.">
 </a>
 
 A driver-aware Windows system monitor combining native OS counters, hardware sensors, and a custom kernel telemetry channel. Animated Avalonia views, configurable CPU widgets, a desktop overlay, and SQLite history bring the data into focus.
